@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0, soma = 0;
+            while (x <= 100)
+            {
+                soma = soma + x;
+                x++;
+            }
+            Console.WriteLine(soma);
+        }
+    }
+}
